@@ -46,7 +46,7 @@ const UserForm = () => {
         padding: '10px', // Adjusted padding
         border: '1px solid #ccc',
         borderRadius: '8px',
-        backgroundColor: '#f9f9f9', // Optional background color for better visibility
+        backgroundColor: '#f9f9f9', 
       }}
       onSubmit={handleSubmit}
     >
@@ -59,9 +59,9 @@ const UserForm = () => {
         value={formData.name}
         onChange={handleChange}
         fullWidth
-        InputLabelProps={{ style: { fontSize: '1.5rem' } }} // Adjusted font size of the label
-        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} // Adjusted font size and height of input text
-        sx={{ height: '70px' }} // Adjusted height of the TextField component
+        InputLabelProps={{ style: { fontSize: '1.5rem' } }} 
+        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} 
+        sx={{ height: '70px' }} 
       />
       <TextField
         label="Address"
@@ -69,9 +69,9 @@ const UserForm = () => {
         value={formData.address}
         onChange={handleChange}
         fullWidth
-        InputLabelProps={{ style: { fontSize: '1.5rem' } }} // Adjusted font size of the label
-        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} // Adjusted font size and height of input text
-        sx={{ height: '70px' }} // Adjusted height of the TextField component
+        InputLabelProps={{ style: { fontSize: '1.5rem' } }} 
+        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} 
+        sx={{ height: '70px' }} 
       />
       <TextField
         label="Email"
@@ -79,9 +79,9 @@ const UserForm = () => {
         value={formData.email}
         onChange={handleChange}
         fullWidth
-        InputLabelProps={{ style: { fontSize: '1.5rem' } }} // Adjusted font size of the label
-        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} // Adjusted font size and height of input text
-        sx={{ height: '70px' }} // Adjusted height of the TextField component
+        InputLabelProps={{ style: { fontSize: '1.5rem' } }} 
+        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} 
+        sx={{ height: '70px' }} 
       />
       <TextField
         label="Phone"
@@ -89,14 +89,14 @@ const UserForm = () => {
         value={formData.phone}
         onChange={handleChange}
         fullWidth
-        InputLabelProps={{ style: { fontSize: '1.5rem' } }} // Adjusted font size of the label
-        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} // Adjusted font size and height of input text
-        sx={{ height: '70px' }} // Adjusted height of the TextField component
+        InputLabelProps={{ style: { fontSize: '1.5rem' } }} 
+        InputProps={{ style: { fontSize: '1.5rem', height: '70px' } }} 
+        sx={{ height: '70px' }} 
       />
       <Button
         type="submit"
         variant="contained"
-        sx={{ fontSize: '1.5rem', padding: '20px' }} // Adjusted font size and padding
+        sx={{ fontSize: '1.5rem', padding: '20px' }} 
       >
         Save
       </Button>
