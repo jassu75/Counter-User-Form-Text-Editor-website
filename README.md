@@ -1,6 +1,7 @@
-This project was created by Tejas V Kangod. 
+#This project was created by Tejas V Kangod. 
 
-EXPLAINATION OF THE ASSIGMENT – DONE BY TEJAS V KANGOD
+#Screenshots
+
 Greetings! Below I will share snapshots of the webpages and explain it briefly to help you navigate the assignment easily. Also I have put snap which shows code runs successfully
 SNAPSHOTS
 1) ![image](https://github.com/jassu75/Counter-User-Form-Text-Editor-website/assets/122803006/ec8d4181-dc53-4438-9a44-c8bd7304542b)
@@ -19,7 +20,7 @@ SNAPSHOTS
 6) ![image](https://github.com/jassu75/Counter-User-Form-Text-Editor-website/assets/122803006/2a92e37c-80db-44e7-bdc6-d5015f65cf66)
 
 
-EXPLAINATION
+#Explaination
 	
 1)	The first image shows the screen when counter is pressed. Increment, decrement and reset works as required.
 2)	The second image shows the User Form. The result is saved In local storage and if the user tries to exit without saving a pop up is shown.
