@@ -1,0 +1,33 @@
+/* RichTextEditor.css */
+
+/* Increase the font size of the editor content */
+.ql-editor {
+    font-size: 16px; /* Change this value to your preferred font size */
+  }
+  
+  /* Customize the toolbar button size */
+  .ql-toolbar button {
+    font-size: 30px; /* Change this value to your preferred size */
+    padding: 10px;   /* Adjust padding if necessary */
+  }
+  
+  /* Customize the toolbar icon size */
+  .ql-toolbar .ql-stroke {
+    stroke-width: 2px; /* Adjust stroke width if necessary */
+  }
+  
+  .ql-toolbar .ql-fill {
+    fill-opacity: 1; /* Ensure icons are fully opaque */
+  }
+  
+  /* Adjust the height and width of the editor container */
+  .ql-container {
+    height: 100%; 
+    width: 100%;
+  }
+  
+  /* Adjust the toolbar and editor container padding */
+  .ql-toolbar, .ql-container {
+    padding: 10px; /* Adjust padding if necessary */
+  }
+  
